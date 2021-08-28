@@ -62,10 +62,10 @@ export default function ProjectCard({
       </div>
       <p>{description}</p>
       <div>
-        <a href={github_url} target="_blank">
+        <a href={github_url} target="_blank" rel="noreferrer">
           <button className="btn btn-sm">View Code</button>
         </a>
-        <a href={live_url} target="_blank">
+        <a href={live_url} target="_blank" rel="noreferrer">
           <button className="btn ml-2 bg-theme text-white btn-sm">
             Live Preview
           </button>

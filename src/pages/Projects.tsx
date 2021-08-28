@@ -4,11 +4,7 @@ import ProjectCard from '../components/ProjectCard/ProjectCard'
 import { Section } from '../components/Styled/Section.styled';
 import ProjectData from '../components/ProjectCard/ProjectData.mock'
 
-interface Props {
-    
-}
-
-export default function Projects({}: Props): ReactElement {
+export default function Projects(): ReactElement {
     return (
         <div>
             <Section>
