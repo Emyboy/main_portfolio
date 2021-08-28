@@ -1,10 +1,9 @@
 import React, { ReactElement } from "react";
-import { FaPhoneAlt } from "react-icons/fa";
 import Heading from "../components/Heading";
 import SkillCard from "../components/SkillCard/SkillCard";
 import { Section } from "../components/Styled/Section.styled";
 import { AiOutlineGlobal } from "react-icons/ai";
-import { FaMobileAlt, FaPaintBrush } from "react-icons/fa";
+import { FaMobileAlt } from "react-icons/fa";
 import { GiPaintBrush } from "react-icons/gi";
 import { BiTestTube } from "react-icons/bi";
 

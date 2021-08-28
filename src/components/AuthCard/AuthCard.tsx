@@ -19,7 +19,7 @@ export default function AuthCard(): ReactElement {
           <h2>Chukwuemeka Ifeora Stanley</h2>
           <div className="container">
             <div className="title">
-              <h4>Frontend Developer</h4>
+              <h4>Full Stack Developer</h4>
             </div>
             <div className="row justify-content-center">
               <a

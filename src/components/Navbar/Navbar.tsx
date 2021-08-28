@@ -3,7 +3,6 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Global from "../../Global";
-interface Props {}
 
 const Nav = styled.div`
     position: fixed;
@@ -13,6 +12,7 @@ const Nav = styled.div`
     display: flex;
     justify-content: flex-end;
     margin-left: 10px;
+    z-index: 3;
     button {
         background-color: ${Global.theme_color};
         color: white;
@@ -28,10 +28,10 @@ const Nav = styled.div`
         background-color: ${Global.theme_color};
         border-radius: 10px 0px 0px 10px;
         display: flex;
-        justify-content: flex-end;
+        /* justify-content: flex-end; */
     };
     a {
-        margin: 5px 5px;
+        margin: 0px 20px 0px 20px;
         color: white;
         font-weight: bold;
         font-size: 18px;
@@ -42,15 +42,14 @@ const Nav = styled.div`
     }
 `;
 
-export default function Navbar({}: Props): ReactElement {
+export default function Navbar(): ReactElement {
   return (
     <Nav>
       <nav className='col-sd-8 col-lg-6 shadow'>
-          <Link to='/'>Home</Link>
-          <Link to='/'>Home</Link>
-          <Link to='/'>Home</Link>
-          <Link to='/'>Home</Link>
-          <Link to='/'>Home</Link>
+          <Link to='/'>About</Link>
+          <Link to='/experience'>Experience</Link>
+          <Link to='/skills'>Skills</Link>
+          <Link to='/projects'>Projects</Link>
       </nav>
       <button>
           <HiMenuAlt3 />

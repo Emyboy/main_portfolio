@@ -1,7 +1,7 @@
 * {
   font-family: "Titillium Web", sans-serif;
   text-decoration: none;
-  transition: 1s !important;
+  transition: 200ms ease-in !important;
 }
 
 body {
@@ -25,4 +25,11 @@ a> svg:hover {
 }
 a:hover{
   text-decoration: none !important;
+}
+
+.text-theme {
+  color: var(--theme-color) !important;
+}
+.bg-theme {
+  background-color: var(--theme-color) !important;
 }
