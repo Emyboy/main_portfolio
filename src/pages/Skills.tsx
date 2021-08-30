@@ -8,12 +8,12 @@ const skillsData = [
     {
         skill: 'Javascript',
         years: 3,
-        progress: 90,
+        progress: 97,
     },
     {
         skill: 'CSS',
         years: 3,
-        progress: 85,
+        progress: 95,
     },
     {
         skill: 'React Native',
@@ -23,7 +23,7 @@ const skillsData = [
     {
         skill: 'React',
         years: 3,
-        progress: 90,
+        progress: 97,
     },
     {
         skill: 'Redux',

@@ -32,7 +32,7 @@ const thingsIDo = [
 
 const icons = [
   <AiOutlineGlobal />,
-  <FaMobileAlt />,
+  <FaMobileAlt size={24} />,
   <GiPaintBrush />,
   <BiTestTube />,
 ];
