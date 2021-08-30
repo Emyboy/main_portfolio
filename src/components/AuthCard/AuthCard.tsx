@@ -6,7 +6,7 @@ import { GrLocation, GrGithub } from "react-icons/gr";
 import { FiMail } from "react-icons/fi";
 import { AiOutlinePhone } from "react-icons/ai";
 import { Button } from "../Styled/Button.styled";
-import { BiDownload } from 'react-icons/bi'
+import { BiDownload } from "react-icons/bi";
 
 export default function AuthCard(): ReactElement {
   return (
@@ -69,17 +69,23 @@ export default function AuthCard(): ReactElement {
           <div className="mb-1 mt-2">
             <GrGithub />
             <span className="ml-1">
-              <a href="http://github.com/emyboy" target="_blank"
-              rel="noreferrer" className='text-dark'>
+              <a
+                href="http://github.com/emyboy"
+                target="_blank"
+                rel="noreferrer"
+                className="text-dark"
+              >
                 Emyboy
               </a>
             </span>
           </div>
         </div>
         <div className="text-center mt-4">
-          <Button className="shadow w-50">
-            <BiDownload /> Download CV
-          </Button>
+          <a href="https://firebasestorage.googleapis.com/v0/b/sheruta-prod.appspot.com/o/DONT%20DELETE%2FResume%2FChukwuemeka's%20Resume%20-.pdf?alt=media&token=d1072b8d-2660-48c6-958e-b9dce31be230">
+            <Button className="shadow w-50">
+              <BiDownload /> Download CV
+            </Button>
+          </a>
         </div>
       </Card>
     </div>
