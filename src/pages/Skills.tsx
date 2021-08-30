@@ -38,7 +38,7 @@ const skillsData = [
     {
         skill: 'Node',
         years: 3,
-        progress: 60,
+        progress: 80,
     },
     {
         skill: 'PostgreSQL',
