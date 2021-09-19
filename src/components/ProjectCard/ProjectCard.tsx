@@ -49,7 +49,7 @@ export default function ProjectCard({
           {stacks.map((val, i) => {
             return (
               <span
-                className={`badge badge-success shadow ${
+                className={`badge badge-success shadow mt-2 ${
                   i === 0 ? null : "ml-1"
                 }`}
                 key={i}
