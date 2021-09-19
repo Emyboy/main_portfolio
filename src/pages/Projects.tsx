@@ -15,7 +15,10 @@ export default function Projects(): ReactElement {
                     {
                         ProjectData.map((val, i)=> {
                             return (
-                              <div className="col-6" key={i}>
+                              <div
+                                className="col-lg-6 col-md-8 col-sm-12"
+                                key={i}
+                              >
                                 <ProjectCard {...val} />
                               </div>
                             );
