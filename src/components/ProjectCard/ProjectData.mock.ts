@@ -3,7 +3,7 @@ const MockData = [
     title: "Resume Builder",
     img: "https://firebasestorage.googleapis.com/v0/b/sheruta-prod.appspot.com/o/DONT%20DELETE%2FAssets%2FScreenshots%2FScreenshot%202021-09-20%20003421.jpg?alt=media&token=a9d5babf-1133-4def-942b-0e99a69e3624",
     description:
-      "Resume helps you build beautiful and amazing resumes to show to potential employers ",
+      "Resume Builder helps you build beautiful and amazing resumes to show to potential employers ",
     stacks: [
       "Next.js",
       "React",
