@@ -43,7 +43,7 @@ export default function ProjectCard({
   return (
     <Card className="shadow">
       <img src={img} alt="" />
-      <h4>{title}</h4>
+      <h4 className='mt-1'>{title}</h4>
       <div className="container">
         <div className="row">
           {stacks.map((val, i) => {
