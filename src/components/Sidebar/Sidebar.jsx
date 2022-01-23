@@ -1,4 +1,5 @@
 import React from "react";
+import TechStackData from "../../Data/TechStacksData";
 import emy from "../../img/emy2.0.jpg";
 
 export default function Sidebar() {
@@ -38,11 +39,15 @@ export default function Sidebar() {
           className="art-scroll-frame"
           data-scrollbar="true"
           tabindex="-1"
-          style={{ overflow: "hidden", outline: "none" }}
+          style={{ overflow: "scroll", outline: "none" }}
         >
           <div className="scroll-content">
             <div className="art-table p-15-15">
               <ul>
+                <li>
+                  <h6>Language:</h6>
+                  <span>English</span>
+                </li>
                 <li>
                   <h6>Residence:</h6>
                   <span>Nigeira</span>
@@ -54,6 +59,24 @@ export default function Sidebar() {
                 <li>
                   <h6>Age:</h6>
                   <span>26</span>
+                </li>
+                <li>
+                  <a
+                    href="mailto: chukwuemekaifeora@gmail.com"
+                    className="d-flex w-100 justify-content-between align-items-center"
+                  >
+                    <h6>Email:</h6>
+                    <span>click here</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="tel: +234 8081008437"
+                    className="d-flex w-100 justify-content-between align-items-center"
+                  >
+                    <h6>Phone No:</h6>
+                    <span>+234 8081008437</span>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -83,8 +106,8 @@ export default function Sidebar() {
                       stroke-width="7"
                       fill-opacity="0"
                       style={{
-                        strokeDasharray: "292.273, 292.273",
-                        strokeDashoffset: "29.2273",
+                        strokeDasharray: "350.273, 292.273",
+                        strokeDashoffset: "90.0000",
                       }}
                     ></path>
                   </svg>
@@ -100,10 +123,10 @@ export default function Sidebar() {
                       color: "rgb(85, 85, 85)",
                     }}
                   >
-                    100
+                    90
                   </div>
                 </div>
-                <h6>French</h6>
+                <h6>React</h6>
               </div>
 
               <div className="art-lang-skills-item">
@@ -128,8 +151,8 @@ export default function Sidebar() {
                       stroke-width="7"
                       fill-opacity="0"
                       style={{
-                        strokeDasharray: "292.273, 292.273",
-                        strokeDashoffset: "29.2273",
+                        strokeDasharray: "330.273, 292.273",
+                        strokeDashoffset: "80.2273",
                       }}
                     ></path>
                   </svg>
@@ -145,10 +168,10 @@ export default function Sidebar() {
                       color: "rgb(85, 85, 85)",
                     }}
                   >
-                    90
+                    87
                   </div>
                 </div>
-                <h6>English</h6>
+                <h6>Javascript</h6>
               </div>
 
               <div className="art-lang-skills-item">
@@ -174,7 +197,7 @@ export default function Sidebar() {
                       fill-opacity="0"
                       style={{
                         strokeDasharray: "292.273, 292.273",
-                        strokeDashoffset: "87.682",
+                        strokeDashoffset: "70.000",
                       }}
                     ></path>
                   </svg>
@@ -193,259 +216,80 @@ export default function Sidebar() {
                     70
                   </div>
                 </div>
-                <h6>Spanish</h6>
+                <h6>Node Js</h6>
               </div>
             </div>
 
             <div className="art-ls-divider"></div>
-
             <div className="art-hard-skills p-30-15">
-              <div className="art-hard-skills-item">
-                <div className="art-skill-heading">
-                  <h6>html</h6>
-                </div>
-                <div className="art-line-progress">
-                  <div id="lineprog1" style={{ position: "relative" }}>
-                    <svg
-                      viewBox="0 0 100 1.72"
-                      preserveAspectRatio="none"
-                      style={{ width: "100%", height: "100%" }}
-                    >
-                      <path
-                        d="M 0,0.86 L 100,0.86"
-                        stroke="#eee"
-                        stroke-width="1.72"
-                        fill-opacity="0"
-                      ></path>
-                      <path
-                        d="M 0,0.86 L 100,0.86"
-                        stroke="#555"
-                        stroke-width="1.72"
-                        fill-opacity="0"
-                        style={{
-                          strokeDasharray: "100, 100",
-                          strokeDashoffset: "10",
-                        }}
-                      ></path>
-                    </svg>
-                    <div
-                      className="progressbar-text"
-                      style={{
-                        position: "absolute",
-                        left: "50%",
-                        top: "50%",
-                        padding: "0px",
-                        margin: "0px",
-                        transform: "translate(-50%, -50%)",
-                        color: "rgb(85, 85, 85)",
-                      }}
-                    >
-                      90 %
+              {TechStackData.map((val, i) => {
+                return (
+                  <div className="art-hard-skills-item">
+                    <div className="art-skill-heading">
+                      <h6>{val.name}</h6>
+                    </div>
+                    <div className="art-line-progress">
+                      <div id="lineprog1" style={{ position: "relative" }}>
+                        <svg
+                          viewBox="0 0 100 1.72"
+                          preserveAspectRatio="none"
+                          style={{ width: "100%", height: "100%" }}
+                        >
+                          <path
+                            d="M 0,0.86 L 100,0.86"
+                            stroke="#eee"
+                            stroke-width="1.72"
+                            fill-opacity="0"
+                          ></path>
+                          <path
+                            d="M 0,0.86 L 100,0.86"
+                            stroke="#555"
+                            stroke-width="1.72"
+                            fill-opacity="0"
+                            style={{
+                              strokeDasharray: `${val.percent}, ${val.percent}`,
+                              strokeDashoffset: "0",
+                            }}
+                          ></path>
+                        </svg>
+                        <div
+                          className="progressbar-text"
+                          style={{
+                            position: "absolute",
+                            left: "50%",
+                            top: "50%",
+                            padding: "0px",
+                            margin: "0px",
+                            transform: "translate(-50%, -50%)",
+                            color: "rgb(85, 85, 85)",
+                          }}
+                        >
+                          {val.percent} %
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-
-              <div className="art-hard-skills-item">
-                <div className="art-skill-heading">
-                  <h6>CSS</h6>
-                </div>
-                <div className="art-line-progress">
-                  <div id="lineprog2" style={{ position: "relative" }}>
-                    <svg
-                      viewBox="0 0 100 1.72"
-                      preserveAspectRatio="none"
-                      style={{ width: "100%", height: "100%" }}
-                    >
-                      <path
-                        d="M 0,0.86 L 100,0.86"
-                        stroke="#eee"
-                        stroke-width="1.72"
-                        fill-opacity="0"
-                      ></path>
-                      <path
-                        d="M 0,0.86 L 100,0.86"
-                        stroke="#555"
-                        stroke-width="1.72"
-                        fill-opacity="0"
-                        style={{
-                          strokeDasharray: "100, 100",
-                          strokeDashoffset: "5",
-                        }}
-                      ></path>
-                    </svg>
-                    <div
-                      className="progressbar-text"
-                      style={{
-                        position: "absolute",
-                        left: "50%",
-                        top: "50%",
-                        padding: "0px",
-                        margin: "0px",
-                        transform: "translate(-50%, -50%)",
-                        color: "rgb(85, 85, 85)",
-                      }}
-                    >
-                      95 %
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="art-hard-skills-item">
-                <div className="art-skill-heading">
-                  <h6>Js</h6>
-                </div>
-                <div className="art-line-progress">
-                  <div id="lineprog3" style={{ position: "relative" }}>
-                    <svg
-                      viewBox="0 0 100 1.72"
-                      preserveAspectRatio="none"
-                      style={{ width: "100%", height: "100%" }}
-                    >
-                      <path
-                        d="M 0,0.86 L 100,0.86"
-                        stroke="#eee"
-                        stroke-width="1.72"
-                        fill-opacity="0"
-                      ></path>
-                      <path
-                        d="M 0,0.86 L 100,0.86"
-                        stroke="#555"
-                        stroke-width="1.72"
-                        fill-opacity="0"
-                        style={{
-                          strokeDasharray: "100, 100",
-                          strokeDashoffset: "25",
-                        }}
-                      ></path>
-                    </svg>
-                    <div
-                      className="progressbar-text"
-                      style={{
-                        position: "absolute",
-                        left: "50%",
-                        top: "50%",
-                        padding: "0px",
-                        margin: "0px",
-                        transform: "translate(-50%, -50%)",
-                        color: "rgb(85, 85, 85)",
-                      }}
-                    >
-                      75 %
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="art-hard-skills-item">
-                <div className="art-skill-heading">
-                  <h6>PHP</h6>
-                </div>
-                <div className="art-line-progress">
-                  <div id="lineprog4" style={{ position: "relative" }}>
-                    <svg
-                      viewBox="0 0 100 1.72"
-                      preserveAspectRatio="none"
-                      style={{ width: "100%", height: "100%" }}
-                    >
-                      <path
-                        d="M 0,0.86 L 100,0.86"
-                        stroke="#eee"
-                        stroke-width="1.72"
-                        fill-opacity="0"
-                      ></path>
-                      <path
-                        d="M 0,0.86 L 100,0.86"
-                        stroke="#555"
-                        stroke-width="1.72"
-                        fill-opacity="0"
-                        style={{
-                          strokeDasharray: "100, 100",
-                          strokeDashoffset: "35",
-                        }}
-                      ></path>
-                    </svg>
-                    <div
-                      className="progressbar-text"
-                      style={{
-                        position: "absolute",
-                        left: "50%",
-                        top: "50%",
-                        padding: "0px",
-                        margin: "0px",
-                        transform: "translate(-50%, -50%)",
-                        color: "rgb(85, 85, 85)",
-                      }}
-                    >
-                      65 %
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="art-hard-skills-item">
-                <div className="art-skill-heading">
-                  <h6>Wordpress</h6>
-                </div>
-                <div className="art-line-progress">
-                  <div id="lineprog5" style={{ position: "relative" }}>
-                    <svg
-                      viewBox="0 0 100 1.72"
-                      preserveAspectRatio="none"
-                      style={{ width: "100%", height: "100%" }}
-                    >
-                      <path
-                        d="M 0,0.86 L 100,0.86"
-                        stroke="#eee"
-                        stroke-width="1.72"
-                        fill-opacity="0"
-                      ></path>
-                      <path
-                        d="M 0,0.86 L 100,0.86"
-                        stroke="#555"
-                        stroke-width="1.72"
-                        fill-opacity="0"
-                        style={{
-                          strokeDasharray: "100, 100",
-                          strokeDashoffset: "15",
-                        }}
-                      ></path>
-                    </svg>
-                    <div
-                      className="progressbar-text"
-                      style={{
-                        position: "absolute",
-                        left: "50%",
-                        top: "50%",
-                        padding: "0px",
-                        margin: "0px",
-                        transform: "translate(-50%, -50%)",
-                        color: "rgb(85, 85, 85)",
-                      }}
-                    >
-                      85 %
-                    </div>
-                  </div>
-                </div>
-              </div>
+                );
+              })}
             </div>
 
             <div className="art-ls-divider"></div>
 
             <ul className="art-knowledge-list p-15-0">
-              <li>Bootstrap, Materialize</li>
-              <li>Stylus, Sass, Less</li>
-              <li>Gulp, Webpack, Grunt</li>
-              <li>GIT knowledge</li>
+              <li>Ant Design</li>
+              <li>Nest.js, Express, Sequelize</li>
+              <li>Dart, Typescript</li>
+              <li>Linting, Webpack, Babel</li>
+              <li>GIT, CI/CD, Testing</li>
             </ul>
 
             <div className="art-ls-divider"></div>
 
             <div className="art-links-frame p-15-15">
               <a
-                href="files/cv.txt"
+                href="https://firebasestorage.googleapis.com/v0/b/sheruta-prod.appspot.com/o/DONT%20DELETE%2FResume%2FChukwuemeka's%20Resume%20-.pdf?alt=media&token=218f06d0-07ba-4825-982c-cac1c1881799"
                 className="art-link"
-                download=""
+                download="https://firebasestorage.googleapis.com/v0/b/sheruta-prod.appspot.com/o/DONT%20DELETE%2FResume%2FChukwuemeka's%20Resume%20-.pdf?alt=media&token=218f06d0-07ba-4825-982c-cac1c1881799"
                 data-no-swup=""
               >
                 Download cv <i className="fas fa-download"></i>
@@ -479,19 +323,27 @@ export default function Sidebar() {
         </div>
 
         <div className="art-ls-social">
-          <a href="#." target="_blank">
+          <a
+            href="https://www.linkedin.com/in/chukwuemeka-ifeora/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-linkedin-in"></i>
           </a>
-          <a href="#." target="_blank">
+          {/* <a href="#." target="_blank">
             <i className="fab fa-dribbble"></i>
           </a>
           <a href="#." target="_blank">
             <i className="fab fa-behance"></i>
-          </a>
-          <a href="#." target="_blank">
+          </a> */}
+          <a href="https://github.com/emyboy" target="_blank" rel="noreferrer">
             <i className="fab fa-github"></i>
           </a>
-          <a href="#." target="_blank">
+          <a
+            href="https://twitter.com/ifeora_emeka"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-twitter"></i>
           </a>
         </div>

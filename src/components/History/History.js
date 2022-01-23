@@ -2,7 +2,7 @@ import React from "react";
 
 export default function History() {
   return (
-    <div class="container-fluid">
+    <div class="container-fluid mb-5">
       <div class="row">
         <div class="col-lg-6">
           <div class="art-section-title">

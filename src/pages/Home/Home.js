@@ -19,7 +19,7 @@ export default function Home() {
           className="art-scroll-frame"
           data-scrollbar="true"
           tabindex="-1"
-          style={{ overflow: "scroll", outline: "none" }}
+          style={{ overflow: "scroll", outline: "none", scrollBehavior: "smooth" }}
         >
           <div
             className="scroll-content"
@@ -32,7 +32,7 @@ export default function Home() {
                   <div className="art-counter-frame" style={{ opacity: "1" }}>
                     <div className="art-counter-box">
                       <span className="art-counter" style={{ opacity: "1" }}>
-                        10
+                        3
                       </span>
                       <span className="art-counter-plus">+</span>
                     </div>
@@ -44,7 +44,7 @@ export default function Home() {
                   <div className="art-counter-frame" style={{ opacity: "1" }}>
                     <div className="art-counter-box">
                       <span className="art-counter" style={{ opacity: "1" }}>
-                        143
+                        4
                       </span>
                     </div>
                     <h6>Completed Projects</h6>
@@ -55,7 +55,7 @@ export default function Home() {
                   <div className="art-counter-frame" style={{ opacity: "1" }}>
                     <div className="art-counter-box">
                       <span className="art-counter" style={{ opacity: "1" }}>
-                        114
+                        7
                       </span>
                     </div>
                     <h6>Happy Customers</h6>
@@ -70,15 +70,15 @@ export default function Home() {
                       </span>
                       <span className="art-counter-plus">+</span>
                     </div>
-                    <h6>Honors and Awards</h6>
+                    <h6>Active Students</h6>
                   </div>
                 </div>
               </div>
             </div>
             <Services />
-            <Recomendations />
             <History />
             <Projects />
+            <Recomendations />
             <Contacts />
           </div>
         </div>

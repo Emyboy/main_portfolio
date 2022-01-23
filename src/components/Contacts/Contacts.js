@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Contacts() {
   return (
-    <div className="container-fluid">
-      <div className="row p-30-0">
+    <div className="container-fluid" id="contact">
+      <div className="row p-30-0"> 
         <div className="col-lg-12">
           <div className="art-section-title">
             <div className="art-title-frame">

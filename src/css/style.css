@@ -95,6 +95,9 @@ common
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap");
 /* ----- text defaults ----- */
 /* line 13, ../scss/_common.scss */
+html {
+  scroll-behavior: smooth !important ;
+}
 body {
   color: #8c8c8e;
   font-size: 12px;

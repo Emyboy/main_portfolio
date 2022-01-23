@@ -1,23 +1,24 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-export default function EachProjects() {
+export default function EachProjects({ data }) {
   return (
-    <div className="col-md-4 col-lg-6">
-      <div class="art-a art-blog-card">
-        <a href="#." class="art-port-cover">
-          <img src="img/blog/2.jpg" alt="blog post" />
+    <div className="col-md-4 col-lg-4">
+      <div className="art-a art-blog-card">
+        <a href="#." className="art-port-cover">
+          <img src={data.img} alt="blog post" />
         </a>
-        <div class="art-post-description">
-          <Link to={'/project/2323-23-232'}>
-            <h5 class="mb-15">Blog post title</h5>
+        <div className="art-post-description">
+          <Link to={`/project/${data?.slug}`}>
+            <h5 className="mb-15">{data.title}</h5>
           </Link>
-          <div class="mb-15">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!
-          </div>
-          <a href="#." class="art-link art-color-link art-w-chevron">
+          <div className="mb-15">{data.description}</div>
+          <Link
+            to={`/project/${data?.slug}`}
+            className="art-link art-color-link art-w-chevron"
+          >
             Read more
-          </a>
+          </Link>
         </div>
       </div>
     </div>

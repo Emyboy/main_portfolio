@@ -1,5 +1,6 @@
 import React from 'react';
 import bg from "../../img/bg.jpg";
+import emy from "../../img/emy.png";
 
 
 export default function Jumbo() {
@@ -17,7 +18,7 @@ export default function Jumbo() {
               <div className="art-banner-title">
                 <h1 className="mb-15">
                   Discover my Amazing <br />
-                  Art Space!
+                  Tech Space!
                 </h1>
                 <div className="art-lg-text art-code mb-25">
                   &lt;<i>code</i>&gt; I build{" "}
@@ -26,7 +27,7 @@ export default function Jumbo() {
                     data-period="2000"
                     data-rotate='[ "web interfaces.", "ios and android applications.", "design mocups.", "automation tools." ]'
                   >
-                    <span className="wrap">ios </span>
+                    <span className="wrap">web applications. </span>
                   </span>
                   &lt;/<i>code</i>&gt;
                 </div>
@@ -39,11 +40,11 @@ export default function Jumbo() {
                   </a>
                 </div>
               </div>
-              <img
-                src="img/face-2.png"
+              {/* <img
+                src={emy}
                 className="art-banner-photo"
                 alt="Your Name"
-              />
+              /> */}
             </div>
           </div>
         </div>
