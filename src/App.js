@@ -10,7 +10,7 @@ import './css/style.css';
 function App() {
   return (
     <div className="art-app art-app-onepage">
-      <div class="art-mobile-top-bar"></div>
+      <div className="art-mobile-top-bar"></div>
       <div className='art-app-wrapper'>
         <div className='art-app-container'>
           <Sidebar />

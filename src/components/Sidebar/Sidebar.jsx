@@ -1,5 +1,5 @@
 import React from "react";
-import emy from '../../img/emy2.0.jpg'
+import emy from "../../img/emy2.0.jpg";
 
 export default function Sidebar() {
   return (
@@ -26,10 +26,10 @@ export default function Sidebar() {
               <div className="art-available-lamp"></div>
             </div>
           </div>
-          <h5 className="art-name mb-10">Artur Carter</h5>
+          <h5 className="art-name mb-10">Chukwuemkea Ifeora</h5>
           <div className="art-sm-text">
-            Front-end Deweloper <br />
-            Ui/UX Designer,{" "}
+            A.K.A Emy <br />
+            Full Stack Developer{" "}
           </div>
         </div>
 
@@ -45,11 +45,11 @@ export default function Sidebar() {
               <ul>
                 <li>
                   <h6>Residence:</h6>
-                  <span>Canada</span>
+                  <span>Nigeira</span>
                 </li>
                 <li>
                   <h6>City:</h6>
-                  <span>Toronto</span>
+                  <span>Lagos</span>
                 </li>
                 <li>
                   <h6>Age:</h6>

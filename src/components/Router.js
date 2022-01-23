@@ -5,7 +5,7 @@ import Home from '../pages/Home/Home';
 export default function Router() {
   return (
     <div className="art-content">
-      <div class="art-curtain"></div>
+      <div className="art-curtain"></div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

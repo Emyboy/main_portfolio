@@ -1,44 +1,47 @@
 import React from "react";
+import History from "../../components/History/History";
+import Recomendations from "../../components/Recomendations/Recomendations";
+import Services from "../../components/Services/Services";
 import bg from "../../img/bg.jpg";
 import Jumbo from "./Jumbo";
 
 export default function Home() {
   return (
     <div>
-      <div class="art-top-bg" style={{ backgroundImage: `url(${bg})` }}>
-        <div class="art-top-bg-overlay"></div>
+      <div className="art-top-bg" style={{ backgroundImage: `url(${bg})` }}>
+        <div className="art-top-bg-overlay"></div>
       </div>
-      <div class="transition-fade" id="swup" data-swup="0">
+      <div className="transition-fade" id="swup" data-swup="0">
         <div
           id="scrollbar"
-          class="art-scroll-frame"
+          className="art-scroll-frame"
           data-scrollbar="true"
           tabindex="-1"
-          style={{ overflow: "hidden", outline: "none" }}
+          style={{ overflow: "scroll", outline: "none" }}
         >
           <div
-            class="scroll-content"
+            className="scroll-content"
             style={{ transform: "translate3d(0px, 0px, 0px)" }}
           >
             <Jumbo />
-            <div class="container-fluid">
-              <div class="row p-30-0">
-                <div class="col-md-3 col-6">
-                  <div class="art-counter-frame" style={{ opacity: "1" }}>
-                    <div class="art-counter-box">
-                      <span class="art-counter" style={{ opacity: "1" }}>
+            <div className="container-fluid">
+              <div className="row p-30-0">
+                <div className="col-md-3 col-6">
+                  <div className="art-counter-frame" style={{ opacity: "1" }}>
+                    <div className="art-counter-box">
+                      <span className="art-counter" style={{ opacity: "1" }}>
                         10
                       </span>
-                      <span class="art-counter-plus">+</span>
+                      <span className="art-counter-plus">+</span>
                     </div>
                     <h6>Years Experience</h6>
                   </div>
                 </div>
 
-                <div class="col-md-3 col-6">
-                  <div class="art-counter-frame" style={{ opacity: "1" }}>
-                    <div class="art-counter-box">
-                      <span class="art-counter" style={{ opacity: "1" }}>
+                <div className="col-md-3 col-6">
+                  <div className="art-counter-frame" style={{ opacity: "1" }}>
+                    <div className="art-counter-box">
+                      <span className="art-counter" style={{ opacity: "1" }}>
                         143
                       </span>
                     </div>
@@ -46,10 +49,10 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="col-md-3 col-6">
-                  <div class="art-counter-frame" style={{ opacity: "1" }}>
-                    <div class="art-counter-box">
-                      <span class="art-counter" style={{ opacity: "1" }}>
+                <div className="col-md-3 col-6">
+                  <div className="art-counter-frame" style={{ opacity: "1" }}>
+                    <div className="art-counter-box">
+                      <span className="art-counter" style={{ opacity: "1" }}>
                         114
                       </span>
                     </div>
@@ -57,19 +60,22 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="col-md-3 col-6">
-                  <div class="art-counter-frame" style={{ opacity: "1" }}>
-                    <div class="art-counter-box">
-                      <span class="art-counter" style={{ opacity: "1" }}>
+                <div className="col-md-3 col-6">
+                  <div className="art-counter-frame" style={{ opacity: "1" }}>
+                    <div className="art-counter-box">
+                      <span className="art-counter" style={{ opacity: "1" }}>
                         20
                       </span>
-                      <span class="art-counter-plus">+</span>
+                      <span className="art-counter-plus">+</span>
                     </div>
                     <h6>Honors and Awards</h6>
                   </div>
                 </div>
               </div>
             </div>
+            <Services />
+            <Recomendations />
+            <History />
           </div>
         </div>
       </div>
