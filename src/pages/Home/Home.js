@@ -1,5 +1,7 @@
 import React from "react";
+import Contacts from "../../components/Contacts/Contacts";
 import History from "../../components/History/History";
+import Projects from "../../components/Projects/Projects";
 import Recomendations from "../../components/Recomendations/Recomendations";
 import Services from "../../components/Services/Services";
 import bg from "../../img/bg.jpg";
@@ -76,6 +78,8 @@ export default function Home() {
             <Services />
             <Recomendations />
             <History />
+            <Projects />
+            <Contacts />
           </div>
         </div>
       </div>
