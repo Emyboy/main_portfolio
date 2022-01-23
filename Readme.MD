@@ -1,1 +1,0 @@
-## Design Idea Come from <a href='https://bslthemes.site/vcard/'>Here</a>

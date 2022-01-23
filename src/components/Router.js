@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from '../pages/Home/Home';
+import ProjectDetails from '../pages/ProjectDetails/ProjectDetails';
 
 export default function Router() {
   return (
@@ -9,6 +10,7 @@ export default function Router() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/project/:slug" element={<ProjectDetails />} />
           {/* <Route index element={<Home />} />
           <Route path="teams" element={<Teams />}>
             <Route path=":teamId" element={<Team />} />

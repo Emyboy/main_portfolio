@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function EachProjects() {
   return (
@@ -8,9 +9,9 @@ export default function EachProjects() {
           <img src="img/blog/2.jpg" alt="blog post" />
         </a>
         <div class="art-post-description">
-          <a href="#.">
+          <Link to={'/project/2323-23-232'}>
             <h5 class="mb-15">Blog post title</h5>
-          </a>
+          </Link>
           <div class="mb-15">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!
           </div>
