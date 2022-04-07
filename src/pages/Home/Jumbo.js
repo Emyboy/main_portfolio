@@ -1,7 +1,7 @@
 import React from 'react';
 import bg from "../../img/bg.jpg";
 import emy from "../../img/emy.png";
-
+import TypeWriterEffect from "react-typewriter-effect";
 
 export default function Jumbo() {
   return (
@@ -20,14 +20,50 @@ export default function Jumbo() {
                   Discover my Amazing <br />
                   Tech Space!
                 </h1>
-                <div className="art-lg-text art-code mb-25">
-                  &lt;<i>code</i>&gt; I build{" "}
+                <div className="art-lg-text art-code mb-25 d-flex">
+                  &lt;<i>code</i>&gt;{" "}
+                  <h1
+                    textStyle={{
+                      // fontFamily: "Red Hat Display",
+                      // fontWeight: 500,
+                      fontFamily: "Courier Prime",
+                      fontSize: "18px",
+                      color: "#ffff",
+                      paddingLeft: "10px",
+                    }}
+                  >
+                    I
+                  </h1>{" "}
                   <span
                     className="txt-rotate"
                     data-period="2000"
                     data-rotate='[ "web interfaces.", "ios and android applications.", "design mocups.", "automation tools." ]'
                   >
-                    <span className="wrap">web applications. </span>
+                    <span>
+                      {" "}
+                      <TypeWriterEffect
+                        textStyle={{
+                          // fontFamily: "Red Hat Display",
+                          // fontWeight: 500,
+                          fontFamily: "Courier Prime",
+                          fontSize: "20px",
+                          color: "#ffff",
+                          paddingLeft: "10px",
+                        }}
+                        startDelay={2000}
+                        cursorColor="#ffff"
+                        multiText={[
+                          "build SEO friendly web applications",
+                          "write scalable and secure code.",
+                          "build dynamic websites",
+                          "design modern user interfaces",
+                          "build and manage APIs",
+                        ]}
+                        multiTextDelay={1000}
+                        typeSpeed={30}
+                      />
+                    </span>
+                    {/* <span className="wrap">web applications. </span> */}
                   </span>
                   &lt;/<i>code</i>&gt;
                 </div>
@@ -35,7 +71,10 @@ export default function Jumbo() {
                   <a href="#projects" className="art-btn art-btn-md">
                     <span>Explore now</span>
                   </a>
-                  <a href="#contact" className="art-link art-white-link art-w-chevron">
+                  <a
+                    href="#contact"
+                    className="art-link art-white-link art-w-chevron"
+                  >
                     Hire me
                   </a>
                 </div>

@@ -3,7 +3,7 @@ const RecommendationData = [
     name: "Samyak Jain",
     occupation: "Founder & CEO at MyWays.ai ",
     contact: "SamyakJN@myways.com",
-    img: "https://media-exp1.licdn.com/dms/image/C4E03AQG9--wydmL3DA/profile-displayphoto-shrink_200_200/0/1611686149093?e=1648684800&v=beta&t=g9kb61VaCUDfeUL0rGvIz-WylFctSN0VQ-gvuY2ckMY",
+    img: "https://i.pinimg.com/474x/c9/3a/d1/c93ad1538753e96aa7a99de8b058ed60.jpg",
     text: "Initially we were skeptical about hiring someone to work with us from another country (internationally). But his performance so far has been outstanding. World class!",
   },
   {
