@@ -32,10 +32,10 @@ export default function Jumbo() {
                   &lt;/<i>code</i>&gt;
                 </div>
                 <div className="art-buttons-frame">
-                  <a href="#." className="art-btn art-btn-md">
+                  <a href="#projects" className="art-btn art-btn-md">
                     <span>Explore now</span>
                   </a>
-                  <a href="#." className="art-link art-white-link art-w-chevron">
+                  <a href="#contact" className="art-link art-white-link art-w-chevron">
                     Hire me
                   </a>
                 </div>

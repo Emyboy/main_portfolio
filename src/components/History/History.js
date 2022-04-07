@@ -19,111 +19,31 @@ export default function History() {
               <div class="art-a art-timeline-content">
                 <div class="art-card-header">
                   <div class="art-left-side">
-                    <h5>Title of section 1</h5>
-                    <div class="art-el-suptitle mb-15">Template author</div>
+                    <h5>National Open University of Nigeria</h5>
+                    <div class="art-el-suptitle mb-15">Lagos, Nigeria</div>
                   </div>
                   <div class="art-right-side">
-                    <span class="art-date">jan 2018 - may 2020</span>
+                    <span class="art-date">Till date</span>
                   </div>
                 </div>
 
                 <p>
-                  Dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                  dolorum provident rerum aut hic quasi placeat iure tempora
-                  laudantium ipsa ad debitis unde? Iste voluptatibus minus
-                  veritatis qui ut.
+                  Bachelor's degree in Computer Science
                 </p>
-                <a
+                {/* <a
                   data-fancybox="diplome"
                   data-no-swup=""
                   href="files/certificate.jpg"
                   class="art-link art-color-link art-w-chevron"
                 >
                   Diplome
-                </a>
+                </a> */}
               </div>
             </div>
 
-            <div class="art-timeline-item">
-              <div class="art-timeline-mark-light"></div>
-              <div class="art-timeline-mark"></div>
+            
 
-              <div class="art-a art-timeline-content">
-                <div class="art-card-header">
-                  <div class="art-left-side">
-                    <h5>Title of section 1</h5>
-                    <div class="art-el-suptitle mb-15">Template author</div>
-                  </div>
-                  <div class="art-right-side">
-                    <span class="art-date">jan 2018 - may 2020</span>
-                  </div>
-                </div>
-                <div>
-                  Consectetur adipisicing elit. Iusto, optio, dolorum provident
-                  rerum aut hic quasi placeat iure tempora laudantium ipsa ad
-                  debitis unde?
-                </div>
-              </div>
-            </div>
-
-            <div class="art-timeline-item">
-              <div class="art-timeline-mark-light"></div>
-              <div class="art-timeline-mark"></div>
-
-              <div class="art-a art-timeline-content">
-                <div class="art-card-header">
-                  <div class="art-left-side">
-                    <h5>Title of section 1</h5>
-                    <div class="art-el-suptitle mb-15">Template author</div>
-                  </div>
-                  <div class="art-right-side">
-                    <span class="art-date">jan 2018 - may 2020</span>
-                  </div>
-                </div>
-                <p>
-                  Dolorum provident rerum aut hic quasi placeat iure tempora
-                  laudantium ipsa ad debitis unde? Iste voluptatibus minus
-                  veritatis qui ut.
-                </p>
-                <a
-                  data-fancybox="diplome"
-                  data-no-swup=""
-                  href="files/certificate.jpg"
-                  class="art-link art-color-link art-w-chevron"
-                >
-                  Licence
-                </a>
-              </div>
-            </div>
-
-            <div class="art-timeline-item">
-              <div class="art-timeline-mark-light"></div>
-              <div class="art-timeline-mark"></div>
-
-              <div class="art-a art-timeline-content">
-                <div class="art-card-header">
-                  <div class="art-left-side">
-                    <h5>Title of section 1</h5>
-                    <div class="art-el-suptitle mb-15">Template author</div>
-                  </div>
-                  <div class="art-right-side">
-                    <span class="art-date">jan 2018 - may 2020</span>
-                  </div>
-                </div>
-                <p>
-                  Ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
-                  optio, dolorum provident rerum.
-                </p>
-                <a
-                  data-fancybox="diplome"
-                  data-no-swup=""
-                  href="files/certificate.jpg"
-                  class="art-link art-color-link art-w-chevron"
-                >
-                  Certificate
-                </a>
-              </div>
-            </div>
+            
           </div>
         </div>
         <div class="col-lg-6">

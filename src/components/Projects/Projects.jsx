@@ -4,7 +4,7 @@ import projectData from "../../Data/ProjectData";
 
 export default function Projects() {
   return (
-    <div className="container-fluid mb-5">
+    <div className="container-fluid mb-5" id="projects">
       <div className="row">
         <div class="col-lg-12">
           <div class="art-section-title">
