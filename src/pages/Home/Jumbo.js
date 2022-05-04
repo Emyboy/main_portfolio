@@ -23,11 +23,11 @@ export default function Jumbo() {
                 <div className="art-lg-text art-code mb-25 d-flex">
                   &lt;<i>code</i>&gt;{" "}
                   <h1
-                    textStyle={{
+                    style={{
                       // fontFamily: "Red Hat Display",
                       // fontWeight: 500,
                       fontFamily: "Courier Prime",
-                      fontSize: "18px",
+                      fontSize: "20px",
                       color: "#ffff",
                       paddingLeft: "10px",
                     }}

@@ -277,7 +277,7 @@ export default function Sidebar() {
 
             <ul className="art-knowledge-list p-15-0">
               <li>Ant Design</li>
-              <li>Nest.js, Express, Sequelize</li>
+              <li>Next.js, Express, Sequelize</li>
               <li>Dart, Typescript</li>
               <li>Linting, Webpack, Babel</li>
               <li>GIT, CI/CD, Testing</li>

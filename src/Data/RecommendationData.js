@@ -22,10 +22,10 @@ const RecommendationData = [
   },
   {
     name: "Lucy Ogechukwu",
-    occupation: "HR At The Junction LTD",
+    occupation: "HR At The Junction LTD (Canada)",
     contact: "ogechukwu1@gmail.com",
     img: "https://firebasestorage.googleapis.com/v0/b/sheruta-prod.appspot.com/o/DONT%20DELETE%2FAssets%2FScreenshots%2Frecommendations%2Foge.jpeg?alt=media&token=4b3269d2-cebe-48e4-904e-3082d4feb976",
-    text: "",
+    text: "I have never met anyone with so much creativity and passion for his work. With the sort time I spent working with Chukwuemeka, I was so amaze by his ability to fix problems creatively.",
   },
 ];
 

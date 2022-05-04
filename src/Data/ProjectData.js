@@ -8,10 +8,11 @@ const MockData = [
     live_url: "https://sheruta.ng/",
     github_url: "https://github.com/emyboy/sheruta_v3",
     slug: "sheruta",
+    is_done: true,
   },
   {
     title: "Portfolio Builder",
-    img: "https://firebasestorage.googleapis.com/v0/b/sheruta-prod.appspot.com/o/DONT%20DELETE%2FAssets%2FScreenshots%2FScreenshot%202021-09-20%20003421.jpg?alt=media&token=a9d5babf-1133-4def-942b-0e99a69e3624",
+    img: "https://firebasestorage.googleapis.com/v0/b/sheruta-prod.appspot.com/o/DONT%20DELETE%2FAssets%2FScreenshots%2FGithub%20Actions.png?alt=media&token=6433b673-0a18-4292-8bb4-22bcb949cdfd",
     description:
       "Portfolio Builder helps you build beautiful and amazing portfolios to show to potential employers ",
     stacks: [
@@ -26,6 +27,7 @@ const MockData = [
     live_url: "https://porfolio-builder.vercel.app/",
     github_url: "https://github.com/Emyboy/porfolio_builder",
     slug: "portfolio_builder",
+    is_done: true,
   },
   {
     title: "AYM Blog",
@@ -36,6 +38,7 @@ const MockData = [
     live_url: "https://aym-v2-emyboy.vercel.app/",
     github_url: "https://github.com/Emyboy/aym_v2",
     slug: "aym",
+    is_done: false,
   },
 ];
 
