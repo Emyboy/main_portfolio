@@ -19,6 +19,10 @@ const TechStackData = [
       name: "typescript",
       percent: 86
   },
+  {
+      name: "ux/ui design (figma)",
+      percent: 76
+  },
 ];
 
 export default TechStackData;
