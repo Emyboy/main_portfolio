@@ -5,7 +5,7 @@ const TechStackData = [
   },
   {
       name: "css",
-      percent: 74
+      percent: 94
   },
   {
       name: "bootstrap",
@@ -17,7 +17,7 @@ const TechStackData = [
   },
   {
       name: "typescript",
-      percent: 76
+      percent: 86
   },
 ];
 

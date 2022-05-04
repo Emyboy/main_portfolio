@@ -152,7 +152,7 @@ export default function Sidebar() {
                       fill-opacity="0"
                       style={{
                         strokeDasharray: "330.273, 292.273",
-                        strokeDashoffset: "80.2273",
+                        strokeDashoffset: "50.2273",
                       }}
                     ></path>
                   </svg>
@@ -168,7 +168,7 @@ export default function Sidebar() {
                       color: "rgb(85, 85, 85)",
                     }}
                   >
-                    87
+                    95
                   </div>
                 </div>
                 <h6>Javascript</h6>
