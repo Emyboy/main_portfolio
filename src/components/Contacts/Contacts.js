@@ -6,14 +6,14 @@ export default function Contacts() {
   return (
     <div className="container-fluid" id="contact">
       <div className="row p-30-0">
-        <div className="col-lg-12">
+        {/* <div className="col-lg-12">
           <div className="art-section-title">
             <div className="art-title-frame">
               <h4>Contact information</h4>
             </div>
           </div>
-        </div>
-        <div className="col-lg-4">
+        </div> */}
+        {/* <div className="col-lg-4">
           <div className="art-a art-card">
             <div className="art-table p-15-15">
               <ul>
@@ -33,8 +33,8 @@ export default function Contacts() {
               </ul>
             </div>
           </div>
-        </div>
-        <div className="col-lg-4">
+        </div> */}
+        {/* <div className="col-lg-4">
           <div className="art-a art-card">
             <div className="art-table p-15-15">
               <ul>
@@ -53,8 +53,8 @@ export default function Contacts() {
               </ul>
             </div>
           </div>
-        </div>
-        <div className="col-lg-4">
+        </div> */}
+        {/* <div className="col-lg-4">
           <div className="art-a art-card">
             <div className="art-table p-15-15">
               <ul>
@@ -73,7 +73,7 @@ export default function Contacts() {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="col-lg-12">
           <div className="art-section-title">

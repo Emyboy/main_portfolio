@@ -60,6 +60,32 @@ const ProjectDetailsData = {
     live_link: ProjectData[1].live_url,
     repo_link: ProjectData[1].github_url,
   },
+  mofi: {
+    heading: ProjectData[2].title,
+    description: ProjectData[2].description,
+    image: ProjectData[2].img,
+    tags: "Real Estate, Social Media",
+    category: "Real Estate",
+    technologies: [
+      "Next.js",
+      "Typescript",
+      "React",
+      "Redux",
+      "Bootstrap",
+      "Prismic CMS",
+    ],
+    quote:
+      "I I'm proud to have built this website for the government of my country.",
+    date_started: "20th July 2020",
+    date_finished: "22nd April 2022",
+    first_paragraph:
+      "MOFI stands for 'The Ministry of Finance Incorporated'.<br /> I was asked to build a dynamic website for MOFI which was SEO friendly and asy to use.<br/> ",
+    second_paragraph: "",
+    demo_url:
+      null,
+    live_link: ProjectData[2].live_url,
+    repo_link: ProjectData[2].github_url,
+  },
 };
 
 export default ProjectDetailsData;

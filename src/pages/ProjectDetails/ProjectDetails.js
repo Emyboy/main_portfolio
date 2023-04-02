@@ -110,20 +110,22 @@ export default function ProjectDetails() {
                 })}
               </ul>
               <hr />
-              <div className="">
-                <h2
-                  className="mb-3 art-lg-text art-white"
-                  // style={{ fontSize: "18px" }}
-                >
-                  Video Demo
-                </h2>
-                <video
-                  width={"100%"}
-                  style={{ borderRadius: "20px" }}
-                  controls
-                  src={data?.demo_url}
-                />
-              </div>
+              {data?.demo_url && (
+                <div className="">
+                  <h2
+                    className="mb-3 art-lg-text art-white"
+                    // style={{ fontSize: "18px" }}
+                  >
+                    Video Demo
+                  </h2>
+                  <video
+                    width={"100%"}
+                    style={{ borderRadius: "20px" }}
+                    controls
+                    src={data?.demo_url}
+                  />
+                </div>
+              )}
               <hr />
               <h2
                 className="mb-3 art-lg-text art-white"
